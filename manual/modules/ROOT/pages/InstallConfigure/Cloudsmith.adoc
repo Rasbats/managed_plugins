@@ -75,7 +75,10 @@ are formally arbitrary, but usually named like
     builds i. e., builds published to end users.
 
 The beta repository is not required, just using two repositories like 
-stable/unstable also works fine.
+stable/unstable also works fine.  (NOTE from Rick: Don't do this it screws
+up the visibility of Cloudsmith presentation of all the directories because
+it is set up automatically to use 3 repositories per row.  Only making two
+repositories screws up the viewing of the ENTIRE setup. So DONT DO THIS Please.
 
 image:3cloudsmith.jpg[3cloudsmith.jpg]
 To create the repositories for TideFinder click the plus sign at the right
