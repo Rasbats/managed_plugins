@@ -75,8 +75,9 @@ are formally arbitrary, but usually named like
     builds i. e., builds published to end users.
 
 The beta repository is not required, just using two repositories like 
-stable/unstable also works fine.  (NOTE from Rick: Don't do this it screws
-up the visibility of Cloudsmith presentation of all the directories because
+stable/unstable also works fine (but screws up Cloudsmith presentation).
+(NOTE from Rick: Don't do this it screws
+up the visibility of Cloudsmith presentation of all the repos because
 it is set up automatically to use 3 repositories per row.  Only making two
 repositories screws up the viewing of the ENTIRE setup. So DONT DO THIS Please.
 
@@ -101,7 +102,7 @@ image:7cloudsmith.jpg[7cloudsmith.jpg]
 
 == Retention life of the repositories
 
-For repos within the Cloudsmith opencpn organisation it is possible to use the setting *Artifact Lifecycle*.
+For repos within the Cloudsmith opencpn organisation it is possible to use the setting *Artifact Lifecycle*. This is useful for limiting the amount of storage space we use, as "free" Opensource, we should be respectful of our use.
 
 image:9cloudsmith.jpg[9cloudsmith.jpg]
 
