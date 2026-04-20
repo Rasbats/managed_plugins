@@ -68,20 +68,22 @@ As mentioned, this works in the same way if using the cloudsmith organization
 or not. Eventually, three repositories could be configured. The names
 are formally arbitrary, but usually named like
 
-  - _Tidefinder-Alpha_ ur _tidefinder-unstable_: This is basically a scratch
-     build repository.
-  - _Tidefinder-Beta_: The repository for beta builds.
-  - _Tidefinder-Prod_ or _tidefinder-stable_: The repository for stable
-    builds i. e., builds published to end users.
+  - _[plugin-name]-alpha_ : scratch builds
+  - _[plugin-name]-beta_ :  beta builds
+  - _[tidefinder]-prod_ :  production or stable builds published to end users.
 
-The beta repository is not required, just using two repositories like 
-stable/unstable also works fine (but screws up Cloudsmith presentation).
-(NOTE from Rick: Don't do this it screws
-up the visibility of Cloudsmith presentation of all the repos because
-it is set up automatically to use 3 repositories per row.  Only making two
-repositories screws up the viewing of the ENTIRE setup. So DONT DO THIS Please.
+NOTE: all lower case and no "_pi" at the end, create all 3 repositories
+
+If you are a member of the Opencpn organization and the Plugin Team,
+you can locate your plugin repositories under the Opencpn repository.
+Additionally we request that you create three repositories because the formating
+of Cloudsmith OpenCPN repository expects the  3 repositories.
+
+If you are using your own organization and your own repositories to store the files,
+you can have two repositories such as stable/unstable, named as you like.
 
 image:3cloudsmith.jpg[3cloudsmith.jpg]
+
 To create the repositories for TideFinder click the plus sign at the right
 of the screen.
 
